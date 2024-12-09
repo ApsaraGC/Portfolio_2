@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <header class="header">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Explore my projects and skills</p>
+  </header>
+
+  <div class="container">
+    <!-- About Section -->
+    <section class="about">
+      <img src="profile.png" alt="Profile Image" class="profile-img">
+      <div class="bio">
+        <h2>About Me</h2>
+        <p>I’m Apsara GC, a final-year BIT (Hons) student at Informatics College Pokhara with a passion for software development, 
+          web design, and data science. I enjoy solving problems, learning new technologies, and working on 
+          impactful projects. Outside of tech, I love traveling, trekking, portrait art, and reading novels.
+           My goal is to grow as a developer and contribute meaningfully to the tech industry.</p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+      <h2 >Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Laravel</li>
+      </ul>
+    </section>
+
+    <!-- Proficiency Section -->
+    <section class="proficiency">
+      <div class="text-container">
+        <h2>Proficiency</h2>
+        <div class="skill">
+          <p>Web Development</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 80%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>Data Analysis</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <p>UI/UX Design</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 60%;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    
+    <section class="projects">
+      <h2 >Projects</h2>
+    <div class="projects1">
+      
+      <div class="project">
+        <img src="Landing.png" alt="Project 1">
+        <h3>Landing page</h3>
+        <p>Responsive Landing page</p>
+      </div>
+      <div class="project">
+        <img src="Admin.png" alt="Project 2">
+        <h3>Admin Panel</h3>
+        <p>Responsive admin panel</p>
+      </div>
+      <div class="project">
+        <img src="image.png" alt="Project 3">
+        <h3>Table of patient list</h3>
+        <p>By using HTML, CSS and JS in frontend and backend laravel</p>
+      </div>
+      <div class="project">
+        <img src="profolio.png" alt="Project 3">
+        <h3>Portfolio</h3>
+        <p>Made Portfolio using HTML , CSS and JS</p>
+      </div>
+    </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume">
+      <h2>Download My Resume</h2>
+      <a href="resume.pdf" class="download-btn">Download</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="POST">
+        <div class="input-box">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email">
+        </div>
+        <div class="input-box">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Write your message"></textarea>
+        </div>
+        
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <div class="social">
+      <a href="#"><i class='bx bxl-instagram' ></i></a>
+      <a href="#"><i class='bx bxl-linkedin' ></i></a>
+      <a href="#"><i class='bx bxl-github' ></i></a>
+      <a href="#"><i class='bx bx-envelope' ></i></a>
+    </div>
+    <p class="copyright">© 2024 Apsara GC. All rights reserved.</p>
+  </footer>
+</body>
+</html>
